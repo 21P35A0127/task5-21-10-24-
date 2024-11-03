@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10px;
+    height: 300px;
+    /* width: 400px; */
+    gap: 5px;
+}
+
+.div {
+    width: 300px;
+    height: 200px;
+    /* padding: 20px; */
+}
+
+.flex-child1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.flex-child2 {
+    align-self: center;
+    height: 150px;
+    width: 200px;
+    background-color: brown;
+}
+    
+.flex-child3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+}
